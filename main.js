@@ -1,1 +1,1 @@
-console.log("ok");
+(()=>{"use strict";document.getElementById("content"),console.log("bro ")})();

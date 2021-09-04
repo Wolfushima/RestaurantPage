@@ -1,1 +1,3 @@
-console.log("ok")
+import pageLoad from "./website"
+
+pageLoad();

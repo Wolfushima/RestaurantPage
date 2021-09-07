@@ -16,7 +16,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.24), rgba(255, 0, 0, 0.24), rgba(0, 0, 0, 0.3)),
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.24), rgba(255, 0, 0, 0.24), rgba(0, 0, 0, 0.3)) fixed,
                 url("images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,8 +60,6 @@ nav {
     width: 100%;
 }
 
-
-
 /*      HOME        */
 .home {
     width: 100%;
@@ -85,4 +83,31 @@ nav {
     color: rgb(179, 173, 173);
 }
 
-/* quality and awards */
+/* HOME IMAGES */
+.home-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-steak {
+    width: 200px;
+    height: 200px;
+    background: url("images/quality-steak.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.specialty {
+    width: 200px;
+    height: 200px;
+    background: url("images/specialty.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.bar-home {
+    width: 200px;
+    height: 200px;
+    background: url("images/bar.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}

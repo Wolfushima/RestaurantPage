@@ -1,3 +1,3 @@
-import pageLoad from "./website"
+import initWebsite from "./website"
 
-pageLoad();
+initWebsite();

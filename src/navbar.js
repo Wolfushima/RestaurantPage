@@ -1,6 +1,7 @@
 function createNavbar() {
     const nav = document.createElement("nav");
-    const div = document.createElement("div");
+    const logoContent = document.createElement("div");
+    const logoIcon = document.createElement("div");
     const h4 = document.createElement("h4");
     const ul = document.createElement("ul");
     const liHome = document.createElement("li");
@@ -12,14 +13,15 @@ function createNavbar() {
     const aBar = document.createElement("a");
     const aContact = document.createElement("a");
 
-    div.classList.add("logo")
+    logoContent.classList.add("logo-content")
+    logoIcon.classList.add("logo-icon")
     ul.classList.add("nav-links")
     liHome.dataset.tabTarget = "#home";
     liMenu.dataset.tabTarget = "#menu";
     liBar.dataset.tabTarget = "#bar";
     liContact.dataset.tabTarget = "#contact";
 
-    h4.textContent = "MEATY MEAT";
+    h4.textContent = "RED FOX";
     aHome.textContent = "HOME";
     aMenu.textContent = "MENU";
     aBar.textContent = "BAR";
@@ -30,8 +32,9 @@ function createNavbar() {
     aBar.href = "#";
     aContact.href = "#";
 
-    div.appendChild(h4)
-    nav.appendChild(div)
+    logoContent.appendChild(logoIcon)
+    logoContent.appendChild(h4)
+    nav.appendChild(logoContent)
     nav.appendChild(ul)
     ul.appendChild(liHome)
     ul.appendChild(liMenu)

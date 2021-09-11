@@ -45,25 +45,67 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    min-height: 10vh;
-    background-color: rgb(22, 22, 22);
+    min-height: 15vh;
+    background: linear-gradient(rgba(15, 15, 15), hsl(330, 100%, 1%));
+    box-shadow: 0 0 0 1px hsla(0, 0%, 71%, 0.233);
+    position: relative;
+    overflow: hidden;
 }
 
-.logo {
-    color: white;
+.logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(231, 231, 231);
 }
+
+.logo-content .logo-icon {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background: url("images/logo-fox.png") 50% 50% no-repeat;
+    background-size: cover;
+    filter: invert(19%) sepia(98%) saturate(3006%) hue-rotate(352deg) brightness(71%) contrast(92%);
+    /* color of the fox: #b01919 */
+    border-top: 1px solid hsl(0, 75%, 39%);
+    border-left: 1px solid hsl(258, 75%, 39%);
+}
+
+.logo-content h4 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
 .nav-links {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    width: 30%;
+    min-width: fit-content;
+    width: 30vw;
+    padding: 9px 0px;
+    border-right: solid 1px hsla(0, 0%, 71%, 0.233);
+    border-left: solid 1px hsla(0, 0%, 71%, 0.233);
+    border-radius: 10px;
+    /* background-color: rgb(0, 0, 0); */
 }
 .nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+    border: solid 1px hsla(0, 0%, 71%, 0.233);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 8px;
 }
-
 .nav-links a {
-    color: white;
+    font-size: 12PX;
+    font-family: 'Times New Roman', Times, serif ;
+    color: rgb(235, 235, 235);
     text-decoration: none;
+    letter-spacing: 4px;
+    margin-right: -4px;
 }
 
 /*      MAIN       */
@@ -89,6 +131,7 @@ main {
 }
 
 .home-headline h1{
+    text-align: center;
     font-size: 40px;
     color: white;
     white-space: pre-line;

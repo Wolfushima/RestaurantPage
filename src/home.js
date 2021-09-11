@@ -6,6 +6,7 @@ function createHeadline() {
     const menuBtn = document.createElement("button");
 
     homeHeadline.classList.add("home-headline")
+    menuBtn.classList.add("menu-btn")
 
     h1.textContent = "COME TRY THE BEST\nAND MOST DELICIOUS\nSTEAK IN TOWN";
     p.textContent = "Perfectly Cooked Every Time!";

@@ -23,7 +23,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-size: cover;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
 }
 
 #content {
@@ -124,7 +124,8 @@ main {
     width: 100%;
     height: fit-content;
     padding: 15px;
-    background-color: rgba(27, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.705);
+    /* background-color: rgba(27, 0, 0, 0.753); */
 }
 
 .home-headline h1{
@@ -133,8 +134,7 @@ main {
     font-size: 40px;
     color: hsl(0, 0%, 87%);
     white-space: pre-line;
-    letter-spacing: 5px;
-    text-shadow: 0 0 10px rgb(122, 0, 0);
+    letter-spacing: 10px;
 }
 .home-headline p{
     margin: 5px;
@@ -142,6 +142,7 @@ main {
     font-size: 25px;
     color: rgb(224, 224, 224);
     text-shadow: 0 0 10px rgb(0, 0, 0);
+    letter-spacing: 1px;
 }
 
 .menu-btn {
@@ -149,11 +150,22 @@ main {
     font-weight: 800;
     margin-top: 5px;
     color: rgb(56, 0, 0);
-    background-color: rgb(235, 235, 235);
-    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
     border-radius: 8px;
     outline: none;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out,
+                border 0.15s ease-in-out;
+}
+
+.menu-btn:hover {
+    background-color: rgb(235, 235, 235);
+    color: hsl(0, 98%, 20%);
+}
+.menu-btn:active {
+    transform: scale(1.1);
 }
 
 /* HOME IMAGES */
@@ -162,6 +174,8 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .quality-steak {
@@ -169,6 +183,9 @@ main {
     height: 200px;
     background: url("images/home-images/quality-steak.jpg") 50% 50% no-repeat;
     background-size: cover;
+    border: solid 2px hsla(0, 0%, 71%, 0.233);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .specialty {
@@ -176,13 +193,19 @@ main {
     height: 200px;
     background: url("images/home-images/specialty.jpg") 50% 50% no-repeat;
     background-size: cover;
+    border: solid 2px hsla(0, 0%, 71%, 0.233);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .bar-home {
-    width: 200px;
+    width: 400px;
     height: 200px;
     background: url("images/home-images/bar.jpg") 50% 50% no-repeat;
     background-size: cover;
+    border: solid 2px hsla(0, 0%, 71%, 0.233);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 
@@ -202,36 +225,42 @@ main {
     height: 200px;
     background: url("images/menu-images/steak1.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak2 {
     width: 200px;
     height: 200px;
     background: url("images/menu-images/steak2.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak3 {
     width: 200px;
     height: 200px;
     background: url("images/menu-images/steak3.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak4 {
     width: 200px;
     height: 200px;
     background: url("images/menu-images/steak4.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak5 {
     width: 200px;
     height: 200px;
     background: url("images/menu-images/steak5.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak6 {
     width: 200px;
     height: 200px;
     background: url("images/menu-images/steak6.jpg") 50% 50% no-repeat;
     background-size: cover;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 
 

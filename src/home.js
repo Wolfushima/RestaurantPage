@@ -44,6 +44,8 @@ function loadHome() {
     const homeContent = document.createElement("div");
 
     homeContent.classList.add("home-content")
+    homeContent.dataset.tabContent = "";
+    homeContent.id = "home";
 
     main.appendChild(homeContent)
     homeContent.appendChild(createHeadline())

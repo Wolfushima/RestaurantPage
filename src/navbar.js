@@ -14,6 +14,10 @@ function createNavbar() {
 
     div.classList.add("logo")
     ul.classList.add("nav-links")
+    liHome.dataset.tabTarget = "#home";
+    liMenu.dataset.tabTarget = "#menu";
+    liBar.dataset.tabTarget = "#bar";
+    liContact.dataset.tabTarget = "#contact";
 
     h4.textContent = "MEATY MEAT";
     aHome.textContent = "HOME";

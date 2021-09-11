@@ -17,7 +17,7 @@ body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.24), rgba(255, 0, 0, 0.24), rgba(0, 0, 0, 0.3)) fixed,
-                url("images/background1.jpg") no-repeat center center fixed;
+                url("images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -109,27 +109,73 @@ main {
 .quality-steak {
     width: 200px;
     height: 200px;
-    background: url("images/quality-steak.jpg") 50% 50% no-repeat;
+    background: url("images/home-images/quality-steak.jpg") 50% 50% no-repeat;
     background-size: cover;
 }
 
 .specialty {
     width: 200px;
     height: 200px;
-    background: url("images/specialty.jpg") 50% 50% no-repeat;
+    background: url("images/home-images/specialty.jpg") 50% 50% no-repeat;
     background-size: cover;
 }
 
 .bar-home {
     width: 200px;
     height: 200px;
-    background: url("images/bar.jpg") 50% 50% no-repeat;
+    background: url("images/home-images/bar.jpg") 50% 50% no-repeat;
     background-size: cover;
 }
 
 
 
 /*      MENU        */
+
+/* MENU IMAGES */
+.menu-images-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.steak1 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak1.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.steak2 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak2.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.steak3 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak3.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.steak4 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak4.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.steak5 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak5.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.steak6 {
+    width: 200px;
+    height: 200px;
+    background: url("images/menu-images/steak6.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+
 
 /*      BAR         */
 

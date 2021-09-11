@@ -44,6 +44,7 @@ function loadHome() {
     const homeContent = document.createElement("div");
 
     homeContent.classList.add("home-content")
+    homeContent.classList.add("active")
     homeContent.dataset.tabContent = "";
     homeContent.id = "home";
 

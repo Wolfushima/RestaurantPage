@@ -1,5 +1,6 @@
 import createNavbar from "./navbar";
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 
 
@@ -14,6 +15,7 @@ function initWebsite() {
     content.appendChild(main)
     
     loadHome()
+    loadMenu()
 }
 
 export default initWebsite;

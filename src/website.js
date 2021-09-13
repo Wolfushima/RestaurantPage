@@ -1,6 +1,7 @@
 import createNavbar from "./navbar";
 import loadHome from "./home";
 import loadMenu from "./menu";
+import loadBar from "./bar";
 
 
 
@@ -16,6 +17,7 @@ function initWebsite() {
     
     loadHome()
     loadMenu()
+    loadBar()
 }
 
 export default initWebsite;

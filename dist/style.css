@@ -226,6 +226,7 @@ main {
     width: auto;
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 6px;
     margin: 10px;
     padding: 10px;
 }
@@ -237,7 +238,7 @@ main {
     color: hsl(0, 0%, 87%);
     letter-spacing: 10px;
     align-self: flex-start;
-    margin-bottom: 20px;
+    margin: 10px 10px 15px 10px;
 }
 
 /* MENU STEAK IMAGES */
@@ -251,46 +252,30 @@ main {
 }
 
 .steak1 {
-    width: 250px;
-    height: 200px;
     background: url("images/menu-images/steak1.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak2 {
-    width: 250px;
-    height: 200px;
     background: url("images/menu-images/steak2.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak3 {
-    width: 250px;
-    height: 200px;
     background: url("images/menu-images/steak3.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak4 {
-    width: 250px;
-    height: 200px;
     background: url("images/menu-images/steak4.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak5 {
-    width: 250px;
-    height: 200px;
     background: url("images/menu-images/steak5.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 .steak6 {
+    background: url("images/menu-images/steak6.jpg") 50% 50% no-repeat;
+}
+.steak1, .steak2, .steak3, 
+.steak4, .steak5, .steak6 {
     width: 250px;
     height: 200px;
-    background: url("images/menu-images/steak6.jpg") 50% 50% no-repeat;
+    border: solid 1px rgb(99, 77, 5);
+    border-radius: 3px;
     background-size: cover;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.233);
 }
 
 

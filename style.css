@@ -321,7 +321,47 @@ main {
 
 
 /*      BAR         */
+.bar-content {
+    width: 100%;
+}
+
+.bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px 5px 10px;
+    width: auto;
+}
+
+.bar-wrapper h2 {
+    font-family: 'Girassol', cursive;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    color: hsl(0, 0%, 87%);
+    margin: 10px 10px 15px 10px;
+    border: solid 1px hsla(0, 0%, 71%, 0.233);
+    border-radius: 1px;
+    padding: 5px 8px 1px 8px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.bar-images-content {
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: 5px;
+}
 
 /* BAR IMAGES */
-
+.bar-image {
+    background: url("images/bar-images/bar.jpg") 50% 50% no-repeat;
+    object-fit: cover;
+    width: 640px;
+    height: 426px;
+    border: solid 1px rgb(99, 77, 5);
+    border-radius: 3px;
+    background-size: cover;
+}
 /*      CONTACT     */

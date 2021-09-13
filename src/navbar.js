@@ -21,7 +21,7 @@ function createNavbar() {
     liBar.dataset.tabTarget = "#bar";
     liContact.dataset.tabTarget = "#contact";
 
-    h4.textContent = "RED FOX";
+    h4.textContent = "GREY'S WOLF";
     aHome.textContent = "HOME";
     aMenu.textContent = "MENU";
     aBar.textContent = "BAR";

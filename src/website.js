@@ -1,4 +1,4 @@
-import createNavbar from "./navbar";
+import { createNavbar, navSlide } from "./navbar";
 import loadHome from "./home";
 import loadMenu from "./menu";
 import loadBar from "./bar";
@@ -20,6 +20,9 @@ function initWebsite() {
     loadMenu()
     loadBar()
     loadContact()
+
+    
+    navSlide()
 }
 
 export default initWebsite;

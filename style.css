@@ -201,7 +201,8 @@ main {
 /*      HOME        */
 .home-content,
 .menu-content,
-.bar-content {
+.bar-content,
+.contact-content {
     width: 100%;
     position: relative;
     top: 15vh;

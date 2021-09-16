@@ -144,9 +144,9 @@ main {
     width: 100%;
     height: fit-content;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.466);
     /* background-color: rgba(27, 0, 0, 0.753); */
-    box-shadow: 0px 100px 100px rgb(0, 0, 0);
+    box-shadow: 0px 10px 50px rgb(0, 0, 0);
 }
 
 .home-headline h1 {

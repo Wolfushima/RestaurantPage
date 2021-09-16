@@ -200,7 +200,6 @@ main {
 
 /*      HOME        */
 .home-content,
-.menu-content,
 .bar-content,
 .contact-content {
     width: 100%;
@@ -305,6 +304,10 @@ main {
 
 
 /*      MENU        */
+.menu-content {
+    position: relative;
+    top: 15vh;
+}
 .steak-menu,
 .salad-menu,
 .dessert-menu {

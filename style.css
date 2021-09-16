@@ -62,8 +62,9 @@ nav {
     min-height: 15vh;
     background: linear-gradient(rgba(15, 15, 15), hsl(330, 100%, 1%));
     box-shadow: 0 0 0 1px hsla(0, 0%, 71%, 0.233);
-    position: relative;
+    position: fixed;
     z-index: 100;
+    width: 100%;
 }
 
 .logo-content {
@@ -149,7 +150,7 @@ nav {
         font-size: 2em;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         justify-content: space-evenly;
         right: 0px;
         height: 85vh;
@@ -198,8 +199,12 @@ main {
 }
 
 /*      HOME        */
-.home-content {
+.home-content,
+.menu-content,
+.bar-content {
     width: 100%;
+    position: relative;
+    top: 15vh;
 }
 
 .home-headline {
@@ -212,6 +217,7 @@ main {
     background-color: rgba(0, 0, 0, 0.466);
     /* background-color: rgba(27, 0, 0, 0.753); */
     box-shadow: 0px 10px 50px rgb(0, 0, 0);
+    text-align: center;
 }
 
 .home-headline h1 {

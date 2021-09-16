@@ -27,7 +27,7 @@ function loadContact() {
     const main = document.querySelector("main");
     const contactContent = document.createElement("div");
 
-    contactContent.classList.add("bar-content")
+    contactContent.classList.add("contact-content")
     contactContent.dataset.tabContent = "";
     contactContent.id = "contact";
 

@@ -2,6 +2,7 @@ import createNavbar from "./navbar";
 import loadHome from "./home";
 import loadMenu from "./menu";
 import loadBar from "./bar";
+import loadContact from "./contact";
 
 
 
@@ -18,6 +19,7 @@ function initWebsite() {
     loadHome()
     loadMenu()
     loadBar()
+    loadContact()
 }
 
 export default initWebsite;

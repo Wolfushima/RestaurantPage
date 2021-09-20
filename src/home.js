@@ -3,6 +3,7 @@ function createHeadline() {
     const h1 = document.createElement("h1");
     const p = document.createElement("p");
     const a = document.createElement("a");
+    const menu = document.querySelector("li[data-tab-target='#menu']");
     const menuBtn = document.createElement("button");
 
     homeHeadline.classList.add("home-headline")
@@ -13,6 +14,10 @@ function createHeadline() {
     menuBtn.textContent = "ORDER NOW";
 
     a.href = "#";
+
+    menuBtn.addEventListener("click", () => {
+        menu.click();
+    })
 
     homeHeadline.appendChild(h1)
     homeHeadline.appendChild(p)
